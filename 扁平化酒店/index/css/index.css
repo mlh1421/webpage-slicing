@@ -1,0 +1,417 @@
+
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/*header*/
+
+.header{
+	height: 114px;
+	background: url(../images/bg.png);
+	overflow: hidden;
+}
+
+.header_left{
+	height: 65px;
+	width: 212px;
+	margin-top: 33px;
+	float: left;
+}
+
+.header_left span{
+	display: block;
+	float: right;
+}
+
+.header_left .logo_c{
+	height: 29px;
+	width: 148px;
+	background: url(../images/logo_c.png);
+}
+
+.header_left .logo_e{
+	width: 113px;
+	height: 13px;
+	background: url(../images/logo_e.png);
+	margin-top: -21px;
+	margin-right: 19px;
+}
+
+.header_right{
+	height: 70px;
+	width: 740px;
+	float: right;
+	margin-top: 30px;
+	font-weight: bold;
+} 
+
+.header_right>span{
+	display: block;
+	float: left;
+	width: 700px;
+	padding-left: 537px;
+	margin-bottom: 6px;
+}
+
+.header_right>span>span{
+	color: #b40000;
+}
+
+.header_right>ul>li{
+	height: 30px;
+	width: 78px;
+	margin-right: 1px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+}
+
+.header_right>ul>li:hover{
+	background: #B40000;
+	color: #FFFFFF;
+}
+
+/*酒店简介*/
+
+.summary_bg{
+	height: 580px;
+	background: url(../images/bg.png);
+	overflow: hidden;
+}
+
+.title{
+	width: 167px;
+	height: 38px;
+	background: url(../images/title_bg.png);
+	line-height: 38px;
+	text-align: center;
+	margin-top: 20px;
+	color: #FFFFFF;
+}
+
+.summary_left{
+	width: 440px;
+	float: left;
+}
+
+.summary_left p{
+	margin-top: 10px;
+	text-indent: 2em;
+	line-height: 27px;
+}
+
+
+.circle{
+	display: block;
+	border-radius: 50%;
+	text-align: center;
+	float: left;
+	margin: 15px;
+}
+
+
+.circle1{
+	height: 103px;
+	width: 101px;
+	color: #FFFFFF;
+	background: #0495d6;
+	line-height: 103px;
+	margin-top: 36px;
+}
+
+.circle2{
+	height: 116px;
+	width: 116px;
+	background: #f3e443;
+	line-height: 116px;
+	margin-top: 31px;
+}
+
+.circle3{
+	height: 127px;
+	width: 127px;
+	color: #FFFFFF;
+	background: #ef0708;
+	line-height: 127px;
+	margin-top: 24px;
+}
+
+
+.summary_right{
+	float: right;
+	margin-top: 50px;
+	margin-right: 10px;
+	position: relative;
+}
+
+.summary_right .focus{
+	width: 430px;
+	height: 450px;
+	border: 10px solid #FFFFFF;
+	box-shadow: 0px 0px 3px #000;
+}
+
+.summary_right .prev,.summary_right .next{
+	position: absolute;
+	height: 38px;
+	width: 26px;
+	background: rgba(225,225,225,0.5);
+	top: 220px;
+	cursor: pointer;
+}
+
+.summary_right .prev img,.summary_right .next img{
+	margin-top: 7px;
+	margin-left: 8px;
+}
+
+
+.summary_right .next{
+	right: 10px;
+}
+
+/*最新优惠*/
+
+.onsale_bg{
+	height: 302px;
+	background: #e1dfc3;
+	overflow: hidden;
+	position: relative;
+}
+
+.onsale_bg ul{
+	height: 191px;
+	width: 1000px;
+	margin-top: 20px;
+}
+
+.onsale_bg ul>li{
+	height: 191px;
+	width: 301px;
+	position: relative;
+	float: left;
+	margin: 0 16px;
+}
+
+.sale1{
+	background: url(../images/onsale1.jpg);
+}
+
+.sale2{
+	background: url(../images/onsale2.jpg);
+}
+
+.sale3{
+	background: url(../images/onsale3.jpg);
+}
+
+.onsale_bg ul>li>.obar{
+	width: 221px;
+	height: 40px;
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	bottom: 0;
+	left: 0;
+}
+
+.onsale_bg ul>li>.price{
+	height: 40px;
+	width: 80px;
+	position: absolute;
+	background: #0495d6;
+	bottom: 0;
+	right: 0;
+	color: #d0ebf7;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.onsale_bg ul>li>.obar span{
+	display: inline-block;
+	color: #aba8a5;
+	margin-top: 11px;
+	margin-left: 45px;
+}
+
+.onsale_bg ul>li>.price span{
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.onsale_bg .wrap{
+	position: relative;
+}
+
+.onsale_bg .prev{
+	width: 10px;
+	height: 24px;
+	background: url(../images/prev.png);
+	position: absolute;
+	top: 132px;
+	left: 0px;
+	cursor: pointer;
+}
+
+.onsale_bg .next{
+	width: 10px;
+	height: 24px;
+	background: url(../images/next.png);
+	position: absolute;
+	top: 132px;
+	right: 0px;
+	cursor: pointer;
+}
+
+/*特色服务*/
+
+
+.service_bg{
+	height: 384px;
+	background: url(../images/bg.png);
+	overflow: hidden;
+}
+
+.service_bg .service_item{
+	height: 230px;
+	width: 191px;
+	text-align: center;
+	float: left;
+	margin: 50px 27px;
+}
+
+.service_bg .service_item img{
+	height: 180px;
+	width: 180px;
+	border: 5px solid #ff9b9b;
+	border-radius: 50%;
+	box-shadow: 0 0 5px #000000;
+}
+
+.service_bg .service_item span{
+	font-weight: bold;
+	line-height: 50px;
+	margin-top: 10px;
+}
+
+
+/*预定*/
+
+.book{
+	background: url(../images/bg_red.png);
+	height: 105px;
+	color: #FFFFFF;
+	line-height: 35px;
+	overflow: hidden;
+	position: relative
+}
+
+.book span{
+	display: block;
+	margin-left: 30px;
+	font-size: 24px;
+}
+
+.book .hour24{
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+
+.order{
+	height: 38px;
+	width: 134px;
+	background: url(../images/bg_red.png);
+	position: absolute;
+	top: 33px;
+	right:120px;
+	border: 1px solid #FFFFFF;
+}
+
+.order .inner{
+	height: 34px;
+	width: 130px;
+	background: #FFFFFF;
+	color: #B40000;
+	line-height: 34px;
+	text-align: center;
+	margin-left: 2px;
+	margin-top: 2px;
+	font-size: 20px;
+}
+
+
+/*脚部图片*/
+
+.pic_inner{
+	position: relative;
+}
+
+.pic_inner .half_circle{
+	height: 40px;
+	background: #170000;
+	position: absolute;
+	top: 219px;
+	left: 50%;
+	margin-left: -60px;
+	border-radius: 62px 62px 0px 0px;
+}
+
+/*脚部*/
+
+.footer_bg{
+	height: 147px;
+	background: #170000;
+	color: #FFFFFF;
+	position: relative;
+}
+
+
+.footer_bg .info{
+	float: left;
+	font-size: 12px;
+	line-height: 25px;
+	margin-top: 37px;
+	
+}
+
+
+.footer_bg .logo{
+	height: 110px;
+	width: 100px;
+	position: absolute;
+	left: 627px;
+	top: 0px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.footer_bg .copyRight{
+	float: right;
+}
+
+.footer_bg .copyRight ul{
+	margin-top: 18px;
+	height: 20px;
+}
+
+.footer_bg .copyRight li{
+	width: 82px;
+	float: left;
+	text-align: center;
+}
+
+.footer_bg .copyRight .cpr{
+	margin-top: 30px;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+
+
+
+
+
+

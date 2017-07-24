@@ -1,0 +1,48 @@
+/* 全局样式表始 */
+*{margin: 0;padding: 0;font-size:12px;}
+body{
+background: #c7edcc;
+}
+li{list-style:none;}
+a{text-decoration:none;color:#000;}
+.fl {float: left;}
+.fr{font: right;}
+h2{display: block;height: 30px;border-bottom:1px solid #afc5dd;line-height:30px;font-size:14px;padding-left:10px;box-sizing:border-box;background:linear-gradient(#cedcea,#f8fafc);}
+/* 全局样式表未 */
+
+header {width: 100%;height: 225px;background: url(../images/header_bg.gif);color:#fff;}
+header .inner{width: 1012px;height: 100%;margin-left:193px;}
+header .inner h1{font-size:30px;margin:46px 0 0 62px;}
+header .inner p{font-size:14px;width: 469px;text-align:center;line-height:25px;height: 25px;margin-top:50px;
+    margin-left:20px;
+    background: -webkit-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.7),rgba(255,255,255,0));
+}
+
+nav{width: 100%;height: 40px;background: url(../images/nav_bg.gif);}
+nav ul{width: 959px;height: 40px;margin-left:193px;/* clear: both; */overflow:hidden;}
+nav ul li{float: left;text-align:center;line-height:40px;width: 136px;height: 40px;border-right:1px solid #435b80;}
+nav ul li:hover{background: #5674a4;}
+nav ul li a{color:#fff;}
+
+.main{width: 100%;height: 707px;margin-top:20px;}
+.main .inner{width: 1012px;height: 100%;margin-left:193px;
+/* clear:both; */
+/* overflow:hidden; */}
+.main .aside{width: 242px;height: 707px;}
+.main .aside>div{width: 240px;height: 215px;border:1px solid #afc5dd;}
+.main .aside>div ul{margin-top:10px;}
+.main .aside>div li{height: 23px;line-height23px; position: relative;margin-left:10px;}
+.main .aside>div li time{position: absolute;left:150px;}
+.main .aside>div:not(:first-child){margin-top:28px;}
+.main .summary{margin-left:38px;width: 732px;height: 100%;}
+.main .summary .top{width: 730px;height: 370px;border:1px solid #afc5dd;}
+.main .summary .top p{text-indent:2em;line-height:30px;margin:10px 10px 0 10px;overflow:hidden;}
+.main .summary .bottom{width: 730px;height: 301px;border:1px solid #afc5dd;margin-top:32px;}
+.main .summary .bottom ul{width: 100%;height: 100%;overflow:hidden;}
+.main .summary .bottom ul li{width: 95px;height: 95px;float: left;margin:23px 0 0 21px;}
+.main .summary .bottom figcaption{text-align:center;}
+
+footer{text-align:center;}
+
+
+

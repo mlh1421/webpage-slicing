@@ -1,0 +1,58 @@
+	body {
+            padding-top: 50px;
+            padding-bottom: 40px;
+            color: #5a5a5a;
+        }
+        
+        /*轮播图*/
+       
+       	.carousel {
+            height: 500px;
+            margin-bottom: 60px;
+        }
+        
+        .carousel .item {
+            height: 500px;
+            background-color: #000;
+        }
+        
+        .carousel .item img {
+            width: 100%;
+        }
+
+        .carousel-caption {
+            z-index: 10;
+        }
+
+        .carousel-caption p {
+            margin-bottom: 20px;
+            font-size: 20px;
+            line-height: 1.8;
+        }
+        
+        /*简介*/
+       
+       	#summary-container{
+       		text-align: center;
+       		margin-bottom: 40px;
+       	}
+       	
+       	#feature-divider{
+       		margin-bottom: 40px;
+       	}
+        
+        
+
+        .feature {
+            padding: 30px 0;
+        }
+        
+        .feature-heading {
+            font-size: 50px;
+            color: #2a6496;
+            margin-top: 120px;
+        }
+
+        .feature-heading .text-muted {
+            font-size: 28px;
+        }

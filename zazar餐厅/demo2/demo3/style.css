@@ -1,0 +1,237 @@
+/* 全局样式 */
+*{
+    margin: 0;
+    padding: 0;
+    font-size:14px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color:#555;
+    /* overflow-x: hidden; */
+    /*overflow-y: hidden;*/
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+a{
+    color:#555;
+    text-decoration:none;
+}
+li{list-style:none;}
+/* 全局样式 */
+
+header{
+    width: 1100px;
+    margin:0 auto;
+    height: 110px;
+}
+header img{
+    display:block; 
+    float: left;
+    margin-top:28px;
+}
+header nav{
+    height: 110px;
+    float: right;
+    margin-left:200px;
+}
+header nav ul{
+    height: 110px;
+}
+header nav ul li{
+    float: left;
+    height: 110px;
+    line-height:110px;
+    padding:0 26px;
+    text-align:center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size:100%;
+}
+.banner{
+    /* width: 1497px; */
+    /* height: 565px; */
+    /* background: url(images/banner.jpg); */
+    /* 背景图片必须要定义盒子的宽高才能显现 */
+    border-bottom:4px solid red;
+}
+.banner img{
+vertical-align:middle;
+}
+.menu{
+    width: 156px;
+    height: 65px;
+    background: red;
+    margin:0 auto;
+    line-height:65px;
+    text-align:center;
+    color:white;
+}
+.menu:after{
+    content:"";
+    width: 0;
+    display:block;
+    height: 0;
+    border-left:78px solid red;
+    border-right:78px solid red;
+    border-bottom:10px solid transparent;
+}
+.main{
+    margin-top: 20px;
+    color:#555555;
+}
+.main ul{
+    width: 1100px;
+    height: 368px;
+    /*border: 1px solid red;*/
+    margin:0 auto;
+}
+.main ul li{
+    float: left;
+    width: 550px;
+    height: 30px;
+    margin-top: 62px;
+    /*border:1px solid red;*/
+}
+.main ul li>div{
+    float: left;
+}
+.main ul li>div.left{
+    width: 224px;
+}
+.main ul li>div.left p{
+    font-size: 12px;
+}
+.main ul li div.mid{
+    width: 192px;
+}
+.main ul li div.mid>div{
+    width: 192px;
+    margin-top: 9px;
+    height: 1px;
+    background: #e3e1e1;
+}
+.main ul li div.right{
+    width: 103px;
+}
+.main .load{
+    width: 130px;
+    height: 32px;
+    border:1px solid #e3e1e1;
+    margin: 40px auto;
+    text-align: center;
+    line-height:32px;
+}
+.feature{
+     width: 1100px;
+    margin:0 auto;
+ }
+.feature .feature-top{
+    width: 1100px;
+    height: 30px;
+}
+.feature .feature-top h1{
+    display: block;
+}
+.feature .feature-top .mid{
+    width: 200px;
+    border-top:1px solid #e3e1e1;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 20px;
+}
+.feature .feature-top ul{
+    float: right;
+    width: 100px;
+    height: 12px;
+
+}
+.feature .feature-top ul li{
+    width: 7px;
+    height: 7px;
+    /*border:1px solid red;*/
+    background: #e8e8e8;
+    border-radius: 50%;
+    margin-left:8px;
+    float: left;
+}
+.feature .feature-top ul li:first-child{
+    background: #b6b6b6;
+}
+.feature .feature-bottom{
+    margin-top:10px;
+    width: 1100px;
+    height: 300px;
+}
+.feature .feature-bottom>div{
+    float: left;
+    margin-right: 58px;
+}
+.feature .feature-bottom>div:last-child{
+    margin-right: 0;
+}
+.feature .feature-bottom figcaption{
+    width: 231px;
+    margin-top: 5px;
+}
+.feature .feature-bottom figcaption:last-child{
+    width: 231px;
+    height: 12px;
+}
+.feature .feature-bottom figcaption span:last-child{
+    float: right;
+}
+.feature .feature-bottom figcaption ul{
+    width: 231px;
+    height: 12px;
+}
+.feature .feature-bottom figcaption ul li{
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-right:5px;
+    background:url("images/star.jpg");
+}
+.feature .feature-bottom figcaption ul li:last-child{
+    background-position:bottom;
+}
+.feature .feature-aa{
+    width: 1100px;
+    height: 382px;
+    /*border: 1px solid white;*/
+    overflow: hidden;
+    margin: 0 auto;
+}
+.feature .feature-aa>div{
+    float: left;
+}
+.feature .feature-aa div:nth-child(2)>img{
+    display: block;
+}
+footer{
+    /*width: 100%;*/
+    background: #3b3b3b;
+    margin-top: 200px;
+    /* overflow-y: hidden; */
+}
+footer .inner{
+    width: 1100px;
+    height:315px;
+    margin:0  auto;
+}
+footer dl{
+    float: left;
+    width: 230px;
+    margin-top: 100px;
+    margin-right: 60px;
+}
+footer dl:last-child{
+    margin-right: 0;
+}
+footer dl dd{
+    color:white;
+    font-size: 16px;
+    line-height: 26px;
+}

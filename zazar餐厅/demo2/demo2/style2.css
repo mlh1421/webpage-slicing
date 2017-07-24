@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.featured{
+width: 1100px;
+margin:0 auto;
+
+height:300px;
+border:1px solid red;
+}
+.featured>figure{
+    float: left;
+    margin-right:58px;
+    margin-top:20px;
+}
+.featured>figure:last-child{
+margin-right:0;
+}
+.featured>figure figcaption span:last-child{
+    float: right;
+}

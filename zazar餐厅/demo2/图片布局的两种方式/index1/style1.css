@@ -1,0 +1,28 @@
+*{margin: 0;padding: 0;}
+.fl {float: left;}
+.gallery{
+    width: 1100px;
+    height: 382px;
+    margin:20px auto;
+}
+.gallery .left{
+    width: 353px;
+    height: 382px;
+    background: url(images/demo1.jpg);
+}
+.gallery .mid .top{
+    background: url(images/demo2.jpg);
+    width: 287px;
+    height: 252px;
+}
+.gallery .mid .bottom{
+    width: 287px;
+    height: 130px;
+    background: url(images/demo3.jpg);
+
+}
+.gallery .right{
+    width: 460px;
+    height: 382px;
+    background:url(images/demo4.jpg);
+}

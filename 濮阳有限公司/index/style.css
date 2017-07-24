@@ -1,0 +1,108 @@
+* {margin: 0;padding: 0;}
+a{
+	text-decoration:none;
+	color:#000;
+}
+body{
+	font-family: "Microsost YaHei", "Sim Sun";
+	font-size:12px;
+	background: #c7edcc;
+}
+.fl {float: left;}
+li{list-style:none;}
+.aaa{
+	height: 30px;
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 30px;
+	border-bottom: 1px solid rgb(204, 218, 233);
+	background: linear-gradient(rgb(205, 219, 234), rgb(248, 250, 252));
+}
+#head{width: 100%;height: 225px;background: url(images/header_bg.gif)	
+}
+#head .inner{
+	width: 1012px;
+	height: 100%;
+	color:#fff;
+	font-size:20px;
+	margin-left:200px;
+}
+#head .inner img{
+	display: block;
+}
+#head .inner h1{
+	display:inline;
+	position: absolute;
+	top: 40px;
+    left: 400px;
+    width: 410px;
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+
+}
+#head .inner p{
+	position: absolute;
+	top: 125px;
+	left: 355px;
+	width: 470px;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	background: -webkit-linear-gradient(right, rgba(246,237,237,0), rgba(246,237,237,1), rgba(246,237,237,0));;
+
+}
+#nav {width: 100%;height: 40px;text-align:center;
+	background: url(images/nav_bg.gif);
+}
+#nav ul{
+	margin-left:193px;
+	width: 952px;//不定义宽度下面的li会溢出
+	height: 100%;
+	overflow:hidden;
+}
+#nav ul li{width: 135px;height: 40px;border-right:1px solid #435b80;line-height:40px;float: left;
+	color:#FFF;
+	font-size:12px;
+}
+#nav ul li:hover{
+	background: #5674a4;
+}
+#main{width:100%;height: 707px;
+	margin-top:20px;
+}
+#main .inner{margin-left:193px;width: 1012px;height: 707px;overflow:hidden;}
+#main .inner .section-left{width: 242px;}
+#main .inner .section-left .box{
+	height: 215px;
+	margin-bottom:28px;
+	border:1px solid #afc5dd;
+
+}
+#main .inner .section-left .box{
+	line-height:23px;
+}
+#main .inner .section-right .jianjie{
+	height: 370px;
+	border:1px solid #afc5dd;
+	font-size:12px;
+	line-height:30px;
+	margin-bottom:32px;
+}
+#main .inner .section-right .jianjie{
+	text-indent:2em;
+}
+#main .inner .section-right .fanwei{
+	height: 300px;
+	border:1px solid #afc5dd;
+}
+#main .inner .section-right .fanwei ul li{
+	width: 99px;
+	height: 99px;
+	float: left;
+	margin-left:21px;
+	margin-top:21px;
+	text-align:center;
+}
+#main .inner .section-right{margin-left:38px;width: 732px;}
+#foot{width: 100%;height: 50px;text-align:center;}

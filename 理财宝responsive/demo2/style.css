@@ -1,0 +1,317 @@
+﻿/*全局样式*/ 
+*{
+    margin: 0;
+    padding: 0;
+    font-size:62.5%;
+    color: #7c7a65;
+}
+/*全局样式*/ 
+
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: #555555;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+}
+header p{
+    color: #ffffff;
+    display: block;
+    margin-left: 18px;
+}
+header ul{
+    margin-right: 18px;
+    height: 36px;
+}
+ header ul li{
+     height: 36px;
+     color: #ffffff;
+     float: left;
+     text-align: center;
+     padding:0 18px;
+     line-height: 36px;
+ }
+ nav.add{
+     width: 100%;
+     height:63px;
+     /*text-align: center;*/
+     /*line-height: 63px;*/
+     /*border: 1px solid red;*/
+     line-height: 63px;
+     overflow: hidden;
+     /*background: #7c7365;*/
+ }
+ nav.add img{
+     /*line-height: 63px;*/
+     display: block;
+     margin-top: 14px;
+     margin-left: 18px;
+ }
+ nav.add ul{
+     height: 63px;
+ }
+ nav.add ul li{
+     float: left;
+     height: 63px;
+     text-align: center;
+     line-height: 63px;
+     border-left: 1px solid #f0ede9;
+     color: #7c7a65;
+     font-size: 1.6rem;
+     padding: 0 32px;
+ }
+ .container{
+     width: 100%;
+     /*border: 1px solid red;*/
+ }
+ .container .transaction{
+     width: 100%;
+     height: 63px;
+     background: #7c7365;
+ }
+ .container .transaction div span{
+     color: white;
+     text-align: center;
+     line-height: 63px;
+     padding:0 10px;
+ }
+.container .transaction div span.spa{
+     width: 87px;
+     height: 34px;
+    background: #d7d6d5;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 34px;
+    font-size: 2.2rem;
+    color: #f89900;
+ }
+
+.container .transaction div span.right{
+    display: block;
+    float: right;
+}
+
+ .container .ad{
+     width: 100%;
+     height: 355px;
+     background: url("img/ad001-l.png") no-repeat;
+     background-size:100% 100%;
+ }
+ .container .feature{
+     height: 90px;
+     width: 1140px;
+     /*border:1px solid red;*/
+     margin: 20px auto;
+ }
+ .container .feature>div{
+     width: 367px;
+     height: 88px;
+     border:1px solid #e5e5e5;
+     float: left;
+     margin-left:16px;
+ }
+.container .feature div .left{
+    width: 50%;
+    text-align: center;
+    line-height: 88px;
+    font-size:3.3rem;
+    color:#ff9900;
+    height: 100%;
+}
+.container .feature div .right{
+    width: 50%;
+    height: 100%;
+}
+.container .feature div .right dl{
+    margin-top:1rem;
+}
+.container .feature div .right dd{
+    font-size:1.4rem;
+}
+.container .feature div:first-child{
+    margin-left: 0;
+}
+.container .notice{
+    width: 1140px;
+    height: 36px;
+    border:1px solid #e5e5e5;
+    margin: 20px auto;
+    line-height: 36px;
+}
+.container .notice .right{
+    display: block;
+    float: right;
+    color: #ff9900;
+    margin-right: 1rem;
+}
+.container .notice time{
+    padding: 0 1rem;
+}
+.container .product{
+    width: 1140px;
+    height: 550px;
+    border: 1px solid #e5e5e5;
+    margin:20px auto;
+}
+.container .product .left{
+    width: 20%;
+    height: 100%;
+}
+.container .product .left h1{
+    font-size: 2rem;
+    text-align: center;
+    line-height: 10rem;
+}
+
+.container .product .left p{
+    font-size: 1.4rem;
+    font-style: italic;
+    text-align: center;
+    line-height: 4rem;
+}
+
+
+
+.container .product .right{
+    width: 80%;
+    height: 100%;
+}
+.container .product .right table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+.container .product .right table tr td:last-child{
+    width: 20%;
+    text-align: center;
+}
+.container .product .right table tr td:last-child a{
+    display: inline-block;
+    background: #ff9900;
+    width: 132px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    color:white;
+    font-size: 1.4rem;
+    border-radius: 10%;
+    
+}
+.container .product .right table td{
+    border:1px solid #eeeeee;
+    font-size:1.4rem;
+    text-align: center;
+}
+.container .product .right table td:first-child span{
+    display: inline;
+    text-align: center;
+    /*padding: 1rem;*/
+
+}
+.container .product .right table td p{
+    display: inline-block;
+    /*margin-top:5rem;*/
+    /*line-height: 100%;*/
+    width: 50%;
+    text-align: center;
+}
+.container .product .right table td p i{
+    font-style:normal;
+}
+    /*display: inline-block;*/
+.container .product .right table td span{
+    color:#ff9900;
+    display: block;
+    font-size: 2.2rem;
+}
+.container nav.footer{
+    width: 100%;
+    height: 212px;
+    border-top:1px solid #e5e5e5;
+    margin:0 auto;
+}
+.container nav.footer dl{
+    float: left;
+    width: 15%;
+}
+.container nav.footer dl dt{
+    margin-top: 2.4rem;
+    font-size:1.4rem;
+    line-height: 2.4rem;
+}
+.container nav.footer dl dd{
+    font-size:1.4rem;
+    line-height: 2.4rem;
+}
+.container nav.footer dl:first-child{
+    width: 25%;
+}
+.container nav.footer dl:first-child dt{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 212px;
+    background: #ededed;
+    padding-top:50px;
+}
+footer ul{
+text-align:center;
+}
+footer ul li.icon{
+    display:inline-block;
+    height: 27px;
+    margin-left:12px;
+}
+footer ul li.icon1{
+    width: 38px;
+    background: url(img/1.png);
+    background-size:100% 100%;
+}
+footer ul li.icon2{
+    width: 78px;
+    background: url(img/2.png);
+    background-size:100% 100%;
+}
+footer ul li.icon3{
+    width: 36px;
+    background: url(img/3.png);
+    background-size:100% 100%;
+}
+footer ul li.icon4{
+    width: 63px;
+    background: url(img/4.png);
+    background-size:100% 100%;
+}
+footer ul li.icon5{
+    width: 22px;
+    background: url(img/5.png);
+    background-size:100% 100%;
+}
+footer ul li.icon6{
+    width: 75px;
+    background: url(img/6.png);
+    background-size:100% 100%;
+}
+footer ul li.icon7{
+    width: 30px;
+    height: 30px;
+    background: url(img/cert2.png);
+}
+footer p{
+    text-align:center;
+    line-height:3rem;
+}

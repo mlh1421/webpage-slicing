@@ -1,0 +1,285 @@
+.wrap{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+
+
+
+/*头部*/
+
+
+.header{
+	height: 110px;
+}
+
+.header a{
+	margin-top: 40px;
+}
+
+.header ul li{
+	margin-top: 40px;
+	float: left;
+	margin-left: 50px;
+}
+
+
+
+/*banner*/
+
+
+.banner{
+	position: relative;
+	overflow: hidden;
+	height: 565px;
+}
+
+.banner_text{
+	position: absolute;
+	left: 50%;
+	top: 200px;
+	margin-left: -388px;
+	text-align: center;
+	color: #fff;
+}
+
+.banner_text p{
+	margin-top: 15px;
+}
+
+.banner_text .line{
+	display: inline-block;
+	width: 40px;
+	border-top: 1px solid #FFFFFF;
+	vertical-align: middle;
+}
+
+.Lline{
+	margin-right: 25px;
+}
+
+.Rline{
+	margin-left: 25px;
+}
+
+
+
+
+/*菜单*/
+
+
+.list{
+	border-top: 4px solid #f34949;
+	position: relative;
+}
+
+.tips{
+	position: absolute;
+	top: 0;
+	left:50%;
+	height: 75px;
+	width: 156px;
+	margin-left: -78px;
+	text-align: center;
+	line-height: 65px;
+	color: #FFFFFF;
+	background: #F34949;
+}
+
+.tips:after{
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+	height: 0;
+	width: 0;
+	border-left: 78px solid transparent;
+	border-right: 78px solid transparent;
+	border-bottom: 10px solid #FFFFFF;
+}
+
+.menu{
+	margin-top: 150px;
+	color: #555555;
+}
+
+.menu ul{
+	width: 1160px;		
+}
+
+.menu li{
+	float: left;
+	width: 520px;
+	margin-right: 60px;
+	margin-bottom: 56px;
+}
+
+
+.food .meterial{
+	margin-top: 4px;
+	color: #B7B7B7;
+	font-size: 12px;
+}
+
+.menu li .line{
+	width: 192px;
+	border-top: 1px solid #E3E1E1;
+	margin-top: 13px;
+}
+
+.menu_more_btn{
+	width: 114px;
+	height: 32px;
+	margin: 0 auto;
+	padding-left: 16px;
+	border: 1px solid #D7D5D5;
+	font-size: 14px;
+	line-height: 32px;
+}
+
+.menu_more_btn a,.menu_more_btn span{
+	color: #B7B7B7;
+}
+
+.menu_more_btn .icon{
+	display: inline-block;
+	width: 11px;
+	height: 7px;
+	margin-left: 5px;
+	background: url(../images/menu_more_btn.jpg);
+}
+
+
+/*食物展示区*/
+
+.panel{
+	margin-top: 200px;
+}
+
+.panel_title h3{
+	font-size: 20px;
+	color: #3B3B3B;
+	font-weight: normal;
+	margin-right: 48px;
+}
+
+.panel_title_line{
+	width: 200px;
+	border-top: 2px solid #E5E3E3;
+	margin-top: 11px;
+}
+
+
+.btn_group{
+	font-size: 0;
+}
+
+.btn_group .btn{
+	display: inline-block;
+	margin-left: 11px;
+	height: 9px;
+	width: 9px;
+	background: #DEDEDE;
+	border-radius: 50%;
+}
+
+.btn_group .active{
+	background: #9B9B9B;
+}
+
+.panel_body{
+	margin-top: 75px;
+}
+
+.panel_body ul{
+	width: 1160px;	
+}
+
+.panel_body li{
+	width: 230px;
+	margin-right: 60px;
+}
+
+.panel_body li img{
+	margin-bottom: 26px;
+}
+
+.panel_body li .food{
+	color: #555555;
+	margin-bottom: 13px;
+}
+
+.panel_body li .star_bar{
+	font-size: 0;
+}
+
+.star_bar .star{
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	margin-right: 5px;
+	background-image: url(../images/star.jpg);
+}
+
+
+.star_bar .nostar{
+	background-position: 0 -12px;
+}
+
+
+
+
+
+/*展示区2*/
+
+
+
+.panel_body.pics a{
+	display: block;
+}
+
+.pic_m .d1{
+	height: 251px;
+}
+
+
+
+/*脚部*/
+
+
+.footer{
+	height: 217px;
+	padding-top: 100px;
+	background: #3B3B3B;
+	margin-top: 200px;
+}
+
+
+.footer li{
+	float: left;
+	width: 230px;
+	margin-right: 60px;
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.footer li:last-child{
+	margin-right: 0;
+	margin-top: -13px;
+}
+
+.footer li a{
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+

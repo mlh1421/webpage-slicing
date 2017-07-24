@@ -1,0 +1,35 @@
+/*全局样式开始*/
+*{margin: 0;padding: 0;font-size:12px;}
+.fl {float: left;}
+li{list-style:none;}
+body{background:#c7edcc;}
+/*全局样式结束*/
+
+.header{width: 100%;height: 225px;background:url(images/header_bg.gif);color: white;}
+.header img{position: absolute;left:200px;}
+.header h1{font-size: 30px;position: absolute;left:400px;top:45px;}
+.header p{width: 470px;position: absolute;left: 355px;top: 125px;font-size: 14px;text-align: center;background: -webkit-linear-gradient(right, rgba(246,237,237,0), rgba(246,237,237,1), rgba(246,237,237,0));}
+
+
+.nav{width: 100%;height:40px;background: url(images/nav_bg.gif);}
+.nav ul{margin:0 auto;width: 952px;height: 40px;}
+.nav ul li{width: 135px;height: 40px;border-right:1px solid #435b80;text-align:center;color:#fff;line-height:40px;float: left;}
+
+
+.main{width: 100%;margin-top:20px;}
+.main h1{height: 30px;padding-left: 10px;font-size: 14px;line-height: 30px;border-bottom: 1px solid rgb(204, 218, 233);background: linear-gradient(rgb(205, 219, 234), rgb(248, 250, 252));}
+.main p{line-height:2;text-indent:2em;}
+.main .inner{width: 1014px;height: 706px;margin:0 auto;}
+.main .inner .section-left{width: 244px;height: 706px;}
+.main .inner .section-left .aa{width: 242px;height: 215px;margin-top:28px;border:1px solid #435b80;}
+.main .inner .section-left .aa ul{margin-left: 5px;}
+.main .inner .section-left .aa ul li{height: 23px;line-height: 23px;position: relative;}
+.main .inner .section-left .aa ul li time{position: absolute;left: 150px;}
+.main .inner .section-left .none{margin-top:0;}
+.main .inner .section-right{width: 735px;height: 706px;margin-left:35px;}
+.main .inner .section-right .bb{width: 732px;height: 370px;border:1px solid #435b80;}
+.main .inner .section-right .bb p{margin:0 5px;}
+.main .inner .section-right .cc{width: 732px;height: 301px;margin-top:32px;border:1px solid #435b80;}
+.main .inner .section-right .cc>div{width: 95px;height: 100px;float: left;margin-top:21px;margin-left:23px;}
+.main .inner .section-right .cc div .img{width: 95px;height: 75px;margin:0 auto;background: url(images/service_1.gif);}
+.main .inner .section-right .cc p{text-align:center;text-indent:0;}

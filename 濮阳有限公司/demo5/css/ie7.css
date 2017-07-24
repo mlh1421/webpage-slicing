@@ -1,0 +1,13 @@
+.main .container .left div{
+width: 238px;
+}
+.main .container .right div{
+    width: 728px;
+}
+.main .container ul li{
+    font-size: 12px;
+}
+.main .container .right p{
+font-size: 12px;    
+line-height: 25px;
+}

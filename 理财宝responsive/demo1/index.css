@@ -1,0 +1,63 @@
+*{margin: 0;padding: 0;list-style:none;}
+a{text-decoration:none;color:#7c7a65;}
+#header{width: 100%;height: 36px;color:#fff;background: #555;}
+#header .section-left{ float: left; line-height:36px;margin-left:2em; }
+#header .section-right{ line-height:36px; float:right;margin-right:2em; }
+#header .section-right .list li{ padding:0 15px; border-left:1px solid #999; display:inline-block; }
+#nav{ width: 100%; height: 66px; background: url(img/logo@1x.png) center left no-repeat; color:#7c7a65;} 
+#nav .list{height: 20px;float:right;margin-top:20px;margin-right:2em;}
+#nav .list li{ float: left; border-left:1px solid #7c7a65;padding:0 10px; }
+#trans{width: 100%;height: 63px;background: #7c7365;}
+#trans .section-left{line-height:63px;float: left;margin-left:2em;}
+#trans .section-right{line-height:63px;float: right;color: #fff; margin-right:2em;}
+#trans .section-left span{color:#fff;}
+#trans .section-left .spa{display:inline-block;color:#ff9900;font-size:25px;padding:0 10px;
+box-shadow:0 0 5px #ccc;height: 40px;line-height:40px;margin:0 10px;background: rgba(225,225,255,0.9);}
+#ads{width: 100%;}
+#ads .top{width: 1600px;height: 450px;overflow:hidden;margin:0 auto;}
+#ads .top li{width: 1600px;height: 450px;float: left;}
+#ads .button{width: 100%;height: 50px;}
+#ads .button .list{width: 300px;height: 50px;margin:0 auto;}
+#ads .button .list li{float: left;width: 20px;height: 20px;border:1px solid #555;margin:15px 20px;border-radius:50%;}
+
+#contain .feature{height: 100px;width: 90%;box-shadow:0 0 5px #ccc;margin:0 auto;color:#7c7a65;}
+#contain .feature .list{height: 80px;width: 100%;float: left;margin:0 auto;}
+
+#contain .feature .list li{width:33.333333333%;float: left;}
+#contain .feature .list li .section-left{float: left;}
+#contain .feature .list li .section-right{margin-left:50px;float: left;}
+#contain .notice{width: 90%;height: 31px;box-shadow:0 0 4px #ccc;margin:30px auto;}
+#contain .notice a{text-align:center;}
+#contain>.product{width: 90%;height: 531px;border: 1px solid #ccc;margin: 20px auto;border-top:3px solid yellow;color:#555; }
+#contain .product>.section-left{width: 30%;height: 100%;float: left;}
+#contain .product>.section-right{width:70%;height: 100%;float: left;}
+#contain .product>.section-right table{width: 100%;height: 100%;}
+#contain .product>.section-right table tr td{border:1px solid #ccc;border-collapse:collapse;width:33.333%;/*设置高度自动均分高度*/
+}/*问题出在那地方*/
+#contain .product .section-right table tr td .section-left{float: left;width: 50%;text-align:center;}
+#contain .product .section-right table tr td .section-right{float: left;width: 50%;text-align:center;}
+#contain .product .section-right table tr td .section-left p span{font-size:1.4em;color:#ff9900;}
+#contain .product .section-right table tr td .section-right p span{font-size:1.4em;color:#ff9900;}
+#contain .product .section-right table tr td button{
+width: 40%;
+margin:0 auto;/*为什么margin无效*/
+margin-left:30%;
+border:none;
+background: #ff9900;
+border-radius:10px;
+height: 40%;
+}
+#footer{width: 100%;height:150px;color:#555;padding:20px;overflow:hidden;}
+#footer .footer-container{margin:auto;width: 90%;height:100px;}
+#footer .footer-container .section-left{width: 20%;height: 250px;float: left;}
+#footer .footer-container .section-right{width:80%;float: left;height:250px;}
+#footer .section-left p{width: 100%;background: url(img/logo@1x.png) no-repeat;float: left;height: 100px;}
+#footer .footer-container .section-right ul{float: left;width: 20%;}
+#footer .footer-container ul li.spa{color:#222;}
+
+#foot{width: 100%;height: 102px;overflow:hidden;}
+#foot .list{height: 32px;width: 413px;margin:10px auto;}
+#foot p{width: 413px;text-align:center;color:#555;margin:0 auto;}
+#foot .list li{float: left;height:32px;}
+#foot .list li img{height: 32px;}
+
